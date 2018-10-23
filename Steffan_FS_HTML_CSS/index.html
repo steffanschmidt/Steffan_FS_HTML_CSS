@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="StyleSheet1.css" />
+</head>
+<body>
+
+    <h1>Contact Us</h1>
+
+
+    <form id="contact_form" method="post" target="contact.apsx">
+        <!--target is where it is send-->
+        <fieldset>
+            <legend>
+                An arbitrary text
+            </legend>
+            <ol>
+                <li>
+                    <label for="full_name">Full Name: </label><br />
+                    <input type="text" id="full_name" name="FullName" />
+                </li>
+                <li>
+                    <label for="telephone">Telephone Number: </label><br />
+                    <input type="tel" id="telephone" name="PhoneNumber" />
+                </li>
+                <li>
+                    <label for="email_field">Email: </label><br />
+                    <input type="email" id="email_field" name="Email" />
+                </li>
+                <li>
+                    <label for="PW_enter">Select Password: </label><br />
+                    <input type="password" id="PW_enter" name="PW_enter" />
+                </li>
+
+                <li>
+                    <label for="PW_confirm">Confirm Password: </label><br />
+                    <input type="password" id="PW_confirm" name="PW_confirm" />
+                </li>
+
+                <li>
+                    <label for="misc_field">Message</label><br />
+                    <textarea name="miscellaneous" cols="30" rows="30" id="misc_field"
+                              placeholder="Write here"></textarea>
+                </li>
+
+                <li>
+                    <input type="submit" id="Submit_Info" name="Submit_button" value="Submit"
+                           onclick="Info_Control(full_name.value)" />
+                </li>
+
+            </ol>
+        </fieldset>
+
+
+
+    </form>
+
+    <!--Other types: email,password,tel,url,number,button,submit-->
+    <!--Does not discriminate between data types-->
+    <!--Alternative to submit is <button type="submit" value="Submit" name="Whatever"-->
+    <!-- Script
+        <script type="text/javascript">
+            function Info_control(full_name.value)
+            {
+                alert("Hello World");
+            }
+        </script>
+    -->
+    <script type="text/javascript" src="Control_Info.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+﻿body {
+}
+
+title{
+
+}
+
+
+h1 {
+}
+
+h2{
+
+}
+
+p{
+
+}
+
+ol li{
+    list-style-type: none;
+
+}
+
+
+/* For styling of specific IDs*/
+/* #HelloWorld {
+    font-size: 12px;
+}*/
+
+/*
+    target emphasized P
+    p em {
+
+    }
+*/
+
+/*
+    For targetting everything - resetting browser standards
+    * = Wildcard
+    * {}
+
+*/
+
+/*
+    Hits all inputs of type text
+    input[type = "text"] {}
+
+*/

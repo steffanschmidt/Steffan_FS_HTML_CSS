@@ -67,6 +67,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="index.html" />
+    <Content Include="Control_Info.js" />
+    <Content Include="StyleSheet1.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
